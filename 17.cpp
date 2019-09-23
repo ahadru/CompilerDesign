@@ -43,7 +43,7 @@ void infixToPostfix(string s)
 			{ 
 				char c = st.top(); 
 				st.pop(); 
-			ns += c; 
+				ns += c; 
 			} 
 			if(st.top() == '(') 
 			{ 

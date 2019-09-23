@@ -20,7 +20,8 @@ void repl(int pos,char *s){
 int main()
 {
     int i,j,a,b,ts,f=1,cn=0,ln,op=0;
-    //freopen("test.txt","r",stdin);
+    //freopen("in.txt","r",stdin);
+    //freopen("out.txt","w",stdout);
     strcpy(tr,"E");
     //input: a+b*c+d/f-g*m
     // input must not contain space
